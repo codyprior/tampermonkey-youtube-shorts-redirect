@@ -1,0 +1,18 @@
+// ==UserScript==
+// @name         YouTube - Shorts Redirect
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Tampermonkey script to redirect YouTube /shorts/ to /watch?v=.
+// @author       Cody Prior
+// @match        *://*.youtube.com/shorts/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @grant        none
+// @run-at       document-end
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    var shorts = window.location.toString();
+    var replacement = shorts.replace('/shorts/', '/watch?v=');
+    window.location = replacement;
+})();
