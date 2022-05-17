@@ -3,7 +3,7 @@
 ## Description
 A Tampermonkey script to redirect YouTube /shorts/ to /watch?v=.
 
-Created for: https://stackoverflow.com/questions/72193424/tampermonkey-greasemonkey-youtube-redirect-script-from-shorts-to-watchv/72278040#72278040
+Created for: https://stackoverflow.com/q/72193424/12762299
 
 ## Requirements
 - Firefox: https://www.mozilla.org/en-US/firefox/new/
